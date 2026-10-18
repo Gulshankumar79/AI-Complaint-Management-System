@@ -40,12 +40,14 @@ These results are estimates based on the current dataset and do not guarantee th
 - Git (optional, for cloning the repository)
 
 ### 2. Clone the Repository
+
 ```bash
-git clone https://github.com/Gulshankumar79/AI-Complaint-Management-System
+git clone https://github.com/Gulshankumar79/AI-Complaint-Management-System.git
 cd AI-Complaint-Management-System
 ```
 
 ### 3. Install Dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -57,13 +59,15 @@ Create a `.env` file in the project root using `.env.example` as a template. Set
 Never upload your actual `.env` file to GitHub.
 
 ### 5. Run the Application
+
 ```bash
 python app.py
 ```
 
-Open http://127.0.0.1:5000 in your browser.
+Open [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
 
 The SQLite database is initialized when the application starts.
+
 
 ## Project Structure
 
