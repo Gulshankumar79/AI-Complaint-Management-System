@@ -1,0 +1,220 @@
+complaint,category
+"The ceiling fan has stopped working","Electrical"
+"My room light is flickering","Electrical"
+"The classroom switch is not functioning","Electrical"
+"The power supply in the lab is down","Electrical"
+"The AC in the classroom is not cooling","Electrical"
+"The corridor light has stopped working","Electrical"
+"The electrical wiring seems damaged","Electrical"
+"My room socket is not working","Electrical"
+"The voltage keeps fluctuating","Electrical"
+"The classroom bulb needs replacement","Electrical"
+"The washroom sink tap is broken","Water & Plumbing"
+"Water is leaking from the bathroom pipe","Water & Plumbing"
+"The hostel toilet is not working","Water & Plumbing"
+"There is a leakage from the water pipe","Water & Plumbing"
+"The washroom has no running water","Water & Plumbing"
+"The bathroom tap has stopped working","Water & Plumbing"
+"Water is leaking near the classroom","Water & Plumbing"
+"The toilet flush is broken","Water & Plumbing"
+"The hostel water supply is very low","Water & Plumbing"
+"There is a plumbing issue in the washroom","Water & Plumbing"
+"The campus internet is not working","Internet"
+"My WiFi keeps disconnecting","Internet"
+"The hostel WiFi connection is very weak","Internet"
+"I cannot access the internet","Internet"
+"The router has stopped working","Internet"
+"The network speed is extremely slow","Internet"
+"WiFi is unavailable in my classroom","Internet"
+"The internet connection keeps dropping","Internet"
+"My laptop cannot connect to campus WiFi","Internet"
+"There is a network problem in the hostel","Internet"
+"The classroom floor is dirty","Cleaning"
+"The washroom is not being cleaned properly","Cleaning"
+"The garbage bin is full","Cleaning"
+"There is trash outside the classroom","Cleaning"
+"The hostel corridor is dirty","Cleaning"
+"The dustbins have not been emptied","Cleaning"
+"The classroom has a lot of dust","Cleaning"
+"The washroom floor needs cleaning","Cleaning"
+"Garbage is scattered around the campus","Cleaning"
+"The common area is unhygienic","Cleaning"
+"The mess food is not fresh","Food"
+"The food served in the mess is cold","Food"
+"The canteen is serving poor quality food","Food"
+"The lunch was not good today","Food"
+"The dinner was served late","Food"
+"The breakfast was cold","Food"
+"The mess food is too spicy","Food"
+"The food portion is very small","Food"
+"The canteen food is unhygienic","Food"
+"There is a problem with today's meal","Food"
+"The hostel security guard is absent","Security"
+"The main gate security is not proper","Security"
+"Someone stole my belongings from the hostel","Security"
+"I do not feel safe in the hostel","Security"
+"There is no security guard at night","Security"
+"A suspicious person was seen near the hostel","Security"
+"The emergency situation needs immediate attention","Security"
+"The hostel entrance is not secure","Security"
+"There is a security issue near the parking area","Security"
+"The security guard is not checking visitors","Security"
+"The classroom bench is damaged","General"
+"The projector in the classroom has a problem","General"
+"The college lift has stopped working","General"
+"My classroom door is broken","General"
+"The hostel room needs maintenance","General"
+"The classroom furniture is damaged","General"
+"I have a problem with a college facility","General"
+"The library equipment is not working","General"
+"The hostel door lock is damaged","General"
+"There is a maintenance problem in my room","General"
+"The fan in my hostel room is not working","Electrical"
+"There is no electricity in the classroom","Electrical"
+"The tube light is not turning on","Electrical"
+"The AC power is not working","Electrical"
+"The switchboard is damaged","Electrical"
+"The lab electricity supply keeps going off","Electrical"
+"The classroom fan is making a strange noise","Electrical"
+"The hostel room bulb is not working","Electrical"
+"The electrical socket is damaged","Electrical"
+"The power connection in my room is unstable","Electrical"
+"The washroom tap is leaking","Water & Plumbing"
+"There is no water supply in my hostel","Water & Plumbing"
+"The bathroom pipe is leaking badly","Water & Plumbing"
+"The sink in the washroom is blocked","Water & Plumbing"
+"The toilet flush is not working","Water & Plumbing"
+"The hostel bathroom tap is damaged","Water & Plumbing"
+"Water pressure in the washroom is very low","Water & Plumbing"
+"There is water leakage near the hostel room","Water & Plumbing"
+"The washroom pipeline needs repair","Water & Plumbing"
+"The bathroom has a plumbing problem","Water & Plumbing"
+"The campus WiFi is extremely slow","Internet"
+"My hostel internet is not working","Internet"
+"The WiFi signal in my room is weak","Internet"
+"I am unable to connect to the college network","Internet"
+"The internet disconnects frequently","Internet"
+"The classroom network is unavailable","Internet"
+"My WiFi connection is unstable","Internet"
+"The hostel router is not working","Internet"
+"The internet speed has become very slow","Internet"
+"I cannot connect my phone to campus WiFi","Internet"
+"The classroom walls are dirty","Cleaning"
+"The hostel washroom is dirty","Cleaning"
+"The garbage bin near my room is overflowing","Cleaning"
+"The corridor has not been cleaned","Cleaning"
+"There is dust on the classroom desks","Cleaning"
+"The washroom needs proper cleaning","Cleaning"
+"Trash is lying near the hostel","Cleaning"
+"The classroom is unhygienic","Cleaning"
+"The garbage has not been collected","Cleaning"
+"The common room is very dirty","Cleaning"
+"The mess food quality is poor","Food"
+"The food in the canteen is cold","Food"
+"The mess served stale food","Food"
+"The breakfast quality was poor","Food"
+"The lunch served today was cold","Food"
+"The dinner food was not fresh","Food"
+"The food quantity is insufficient","Food"
+"The canteen food is too oily","Food"
+"The mess food tastes bad","Food"
+"The meal served in the hostel was poor","Food"
+"There is no security guard at the hostel gate","Security"
+"The security guard is not present","Security"
+"The hostel gate is not properly secured","Security"
+"I noticed suspicious activity near the hostel","Security"
+"My belongings were stolen from my room","Security"
+"The parking area does not have proper security","Security"
+"Visitors are entering without proper checking","Security"
+"I feel unsafe near the hostel","Security"
+"The night security is not sufficient","Security"
+"There is a security problem at the main gate","Security"
+"The classroom chair is broken","General"
+"The classroom projector is not working","General"
+"The college elevator is not functioning","General"
+"The classroom window is damaged","General"
+"The hostel room requires maintenance","General"
+"The library computer is not working","General"
+"The classroom furniture needs repair","General"
+"The hostel door is damaged","General"
+"There is a problem with the classroom equipment","General"
+"The college facility needs maintenance","General"
+There is no electricity in the classroom,Electrical
+The classroom power supply has stopped,Electrical
+The lights in my room have no power,Electrical
+There is a power failure in the laboratory,Electrical
+The electrical supply is not working,Electrical
+The washroom tap has stopped working,Water & Plumbing
+There is water leakage under the sink,Water & Plumbing
+The toilet flush is not working,Water & Plumbing
+The hostel has very low water pressure,Water & Plumbing
+The bathroom pipe is leaking badly,Water & Plumbing
+The classroom network is unavailable,Internet
+I cannot connect to the college WiFi,Internet
+The internet connection keeps disconnecting,Internet
+The campus network has stopped working,Internet
+The WiFi signal is very weak in my room,Internet
+The classroom desks are covered with dust,Cleaning
+The classroom floor is very dusty,Cleaning
+The washroom needs proper cleaning,Cleaning
+Garbage has not been collected from the classroom,Cleaning
+The room is not being cleaned properly,Cleaning
+The food in the mess is served cold,Food
+The canteen food quality is very poor,Food
+My mess food portion is too small,Food
+The food is being served very late,Food
+The hostel food is too spicy,Food
+There is no security guard at the hostel gate,Security
+Someone entered the hostel without permission,Security
+A suspicious person is near the campus gate,Security
+The hostel security is not working properly,Security
+My belongings were stolen from my hostel room,Security
+The classroom chairs need repair,General
+The projector in the classroom is not working,General
+The lift in the building is not working,General
+The library equipment needs maintenance,General
+The classroom door needs repair,General
+The classroom bulb is not working,Electrical
+The classroom light needs replacement,Electrical
+The fan in the laboratory is not working,Electrical
+The room light keeps flickering,Electrical
+The washroom pipeline needs repair,Water & Plumbing
+The hostel bathroom tap is broken,Water & Plumbing
+The washroom pipe is leaking,Water & Plumbing
+The toilet flush needs repair,Water & Plumbing
+The classroom furniture needs maintenance,General
+The hostel room door needs repair,General
+The library equipment requires maintenance,General
+The building requires general maintenance,General
+"Theft was reported in the hostel","Security"
+"Someone stole my laptop from the hostel room","Security"
+"An unauthorized person entered my hostel room","Security"
+"My phone was stolen on campus","Security"
+"The classroom projector needs maintenance","General"
+"The library computer requires repair","General"
+"The college printer is not functioning","General"
+"The classroom equipment needs servicing","General"
+"The washroom floor is covered with dirt","Cleaning"
+"The bathroom needs thorough cleaning","Cleaning"
+"Trash has been left inside the washroom","Cleaning"
+"The hostel bathroom is dirty and unhygienic","Cleaning"
+"The classroom ceiling fan has stopped working",Electrical
+"The hostel room fan is not functioning",Electrical
+"The laboratory electrical wiring is damaged",Electrical
+"The classroom tube light is not working",Electrical
+"The hostel room bulb has fused",Electrical
+"The classroom switch is not working",Electrical
+"The laboratory has an electrical power problem",Electrical
+"The classroom electrical connection has failed",Electrical
+"The hostel WiFi is not working",Internet
+"The campus router is not functioning",Internet
+"The internet connection in my room is unavailable",Internet
+"The hostel network keeps disconnecting",Internet
+"The college WiFi has stopped working",Internet
+"The network connection is very slow",Internet
+"The classroom floor is covered in dust",Cleaning
+"The classroom walls are dirty",Cleaning
+"The hostel room has not been cleaned",Cleaning
+"There is garbage in the classroom",Cleaning
+"The classroom needs cleaning",Cleaning
+"The washroom is dirty and needs cleaning",Cleaning

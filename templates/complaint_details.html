@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Complaint Details</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .detail {
+            margin-bottom: 20px;
+        }
+
+        .detail strong {
+            display: block;
+            margin-bottom: 6px;
+            color: #555;
+        }
+
+        .complaint-text {
+            background-color: #f4f6f8;
+            padding: 15px;
+            border-radius: 6px;
+            line-height: 1.6;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 8px 14px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .high {
+            background-color: #ffcccc;
+        }
+
+        .medium {
+            background-color: #fff0cc;
+        }
+
+        .low {
+            background-color: #d9f2d9;
+        }
+
+        .status {
+            background-color: #e6e6e6;
+        }
+
+        .actions {
+            margin-top: 30px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .actions a {
+            text-decoration: none;
+            padding: 10px 18px;
+            border-radius: 5px;
+            background-color: #333;
+            color: white;
+        }
+
+        .actions a:hover {
+            background-color: #555;
+        }
+
+        select {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .confidence-bar {
+            width: 100%;
+            height: 20px;
+            background-color: #e6e6e6;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+
+        .confidence-fill {
+            height: 100%;
+            background-color: #333;
+            border-radius: 10px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Complaint Details</h1>
+
+    <div class="detail">
+        <strong>Complaint ID</strong>
+        {{ complaint[0] }}
+    </div>
+
+    <div class="detail">
+        <strong>Name</strong>
+        {{ complaint[1] }}
+    </div>
+
+    <div class="detail">
+        <strong>Complaint</strong>
+
+        <div class="complaint-text">
+            {{ complaint[2] }}
+        </div>
+
+    </div>
+
+    <div class="detail">
+        <strong>AI Predicted Category</strong>
+        {{ complaint[3] }}
+    </div>
+
+    <div class="detail">
+
+        <strong>AI Predicted Priority</strong>
+
+        <span class="badge {{ complaint[4]|lower }}">
+            {{ complaint[4] }}
+        </span>
+
+    </div>
+
+    <div class="detail">
+
+        <strong>AI Confidence</strong>
+
+        {{ "%.2f"|format(complaint[5]) }}%
+
+        <div class="confidence-bar">
+            <div class="confidence-fill"
+                 style="width: {{ complaint[5] }}%;">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="detail">
+
+        <strong>AI Analysis</strong>
+
+        <div class="complaint-text">
+            {{ complaint[6] }}
+        </div>
+
+    </div>
+
+    <div class="detail">
+
+        <strong>Current Status</strong>
+
+        <form action="/update_status/{{ complaint[0] }}" method="POST">
+
+            <select name="status" onchange="this.form.submit()">
+
+                <option value="Pending"
+                    {% if complaint[7] == "Pending" %}selected{% endif %}>
+                    Pending
+                </option>
+
+                <option value="In Progress"
+                    {% if complaint[7] == "In Progress" %}selected{% endif %}>
+                    In Progress
+                </option>
+
+                <option value="Resolved"
+                    {% if complaint[7] == "Resolved" %}selected{% endif %}>
+                    Resolved
+                </option>
+
+            </select>
+
+        </form>
+
+    </div>
+
+    <div class="actions">
+
+        <a href="/admin">Back to Dashboard</a>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
