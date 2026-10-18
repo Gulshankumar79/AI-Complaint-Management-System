@@ -41,7 +41,7 @@ These results are estimates based on the current dataset and do not guarantee th
 
 ### 2. Clone the Repository
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/Gulshankumar79/AI-Complaint-Management-System
 cd AI-Complaint-Management-System
 ```
 Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual repository URL.
