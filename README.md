@@ -87,7 +87,7 @@ AI_Complaint_Management_System/
 
 - Improve classification using a larger and more diverse dataset.
 - Improve priority detection and duplicate complaint handling.
-- Add secure administrator authentication.
+- Strengthen administrator authentication with password hashing and additional access controls.
 - Improve confidence calibration and evaluate more unseen complaints.
 - Deploy the application online.
 
