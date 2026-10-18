@@ -81,7 +81,6 @@ AI_Complaint_Management_System/
 ├── requirements.txt
 ├── README.md
 ├── templates/
-└── static/
 ```
 
 ## Future Improvements
