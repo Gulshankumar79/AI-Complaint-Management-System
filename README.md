@@ -33,8 +33,6 @@ The current dataset contains 255 unique complaints across seven categories.
 These results are estimates based on the current dataset and do not guarantee the same accuracy on new real-world complaints.
 
 
-   python app.py
-   ```
 ## Run Locally
 
 ### 1. Prerequisites
