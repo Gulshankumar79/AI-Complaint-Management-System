@@ -44,9 +44,6 @@ These results are estimates based on the current dataset and do not guarantee th
 git clone https://github.com/Gulshankumar79/AI-Complaint-Management-System
 cd AI-Complaint-Management-System
 ```
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual repository URL.
-
-Alternatively, download the repository as a ZIP file and extract it.
 
 ### 3. Install Dependencies
 ```bash
