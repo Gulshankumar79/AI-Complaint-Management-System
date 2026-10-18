@@ -67,6 +67,7 @@ The SQLite database is initialized when the application starts.
 
 ## Project Structure
 
+```text
 AI-Complaint-Management-System/
 ├── app.py
 ├── train_model.py
@@ -85,6 +86,8 @@ AI-Complaint-Management-System/
     ├── login.html
     ├── success.html
     └── track.html
+```
+
      
 ```
 
