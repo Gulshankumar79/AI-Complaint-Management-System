@@ -32,24 +32,41 @@ The current dataset contains 255 unique complaints across seven categories.
 
 These results are estimates based on the current dataset and do not guarantee the same accuracy on new real-world complaints.
 
-## Run Locally
 
-1. Install Python.
-2. Clone or download this repository.
-3. Open a terminal in the project folder.
-4. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-5. Run the application:
-
-   ```bash
    python app.py
    ```
+## Run Locally
 
-6. Open `http://127.0.0.1:5000` in your browser.
+### 1. Prerequisites
+- Python 3.10 or later
+- Git (optional, for cloning the repository)
+
+### 2. Clone the Repository
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+cd AI-Complaint-Management-System
+```
+Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual repository URL.
+
+Alternatively, download the repository as a ZIP file and extract it.
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Configure Environment Variables
+
+Create a `.env` file in the project root using `.env.example` as a template. Set your own secret key, admin username, and strong admin password.
+
+Never upload your actual `.env` file to GitHub.
+
+### 5. Run the Application
+```bash
+python app.py
+```
+
+Open http://127.0.0.1:5000 in your browser.
 
 The SQLite database is initialized when the application starts.
 
