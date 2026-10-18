@@ -12,6 +12,20 @@ An AI-powered web application that automatically classifies college complaints, 
 - **Status Management:** Supports Pending, In Progress, and Resolved statuses.
 - **Database:** Stores complaint records using SQLite.
 
+## Application Screenshots
+
+### 1. Complaint Submission Page
+
+![Complaint Submission Page](home-page.png)
+
+### 2. Admin Dashboard
+
+![Admin Dashboard](admin-dashboard.png)
+
+### 3. Complaint Tracking Page
+
+![Complaint Tracking Page](complaint-tracking.png)
+
 ## Technologies Used
 
 - Python
