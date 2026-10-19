@@ -15,13 +15,13 @@ An AI-powered web application that automatically classifies college complaints, 
 ## Application Screenshots
 
 ### Complaint Submission Page
-![Complaint Submission Page](./home-page.png)
+![Complaint Submission Page](./home-page.png.png)
 
 ### Admin Dashboard
-![Admin Dashboard](./admin-dashboard.png)
+![Admin Dashboard](./admin-dashboard.png.png)
 
 ### Complaint Tracking Page
-![Complaint Tracking Page](./complaint-tracking.png)
+![Complaint Tracking Page](./complaint-tracking.png.png)
 
 ## Technologies Used
 
